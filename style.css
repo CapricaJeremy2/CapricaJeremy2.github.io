@@ -55,6 +55,9 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 .bloc-lg{
 	padding:100px 20px;
 }
+.bloc-sm{
+	padding:20px;
+}
 
 
 /* Light theme */
@@ -171,6 +174,14 @@ button{
 	outline: none!important;
 }
 
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
 
 
 
@@ -248,6 +259,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
+.navbar-logo{
+	text-transform:none;
+	text-decoration:none;
+	font-size:20px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -259,6 +275,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
+
+/* = Custom Bric Data
+-------------------------------------------------------------- */
 
 
 
@@ -340,3 +359,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+@media (max-width: 575px){
+	.navbar-logo{
+		font-size:18px;
+	}
+	
+}
+
