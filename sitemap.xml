@@ -20,4 +20,10 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
+<url>
+	<loc>www.jeremyoberg2.me/blog/</loc>
+	<lastmod>2025-06-30</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+</url>
 </urlset>
